@@ -7,7 +7,7 @@ public class intermediario {
 	ClaseA clasea;
 	ClaseB claseb;
 	Scanner teclado;
-
+//
 	public intermediario() {
 		teclado = new Scanner(System.in); // Para leer las opciones de teclado
 		clasea = new ClaseA();

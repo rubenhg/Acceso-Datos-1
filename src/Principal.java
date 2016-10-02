@@ -6,7 +6,7 @@ public class Principal {
 		if (args.length <= 0) {
 			System.err.println("Se necesita un programa a ejecutar");
 			System.exit(-1);
-		}
+		}//
 		ProcessBuilder pb = new ProcessBuilder(args);
 		try {
 			Process process = pb.start();

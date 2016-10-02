@@ -20,7 +20,7 @@ public class ClaseA {
 
 	public Object leerFichero() throws IOException {
 		ArrayList<String> a = new ArrayList<String>();
-		// Fichero del que queremos leer
+		
 
 		try {
 			fr = new FileReader(fichero);

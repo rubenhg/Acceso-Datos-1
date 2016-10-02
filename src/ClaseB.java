@@ -9,7 +9,7 @@ public class ClaseB {
 	public Scanner scan = new Scanner(System.in);
 
 	public ArrayList<String> leerTeclado() {
-
+  //
 		System.out.print("¿Cuantas películas queires? : ");
 		int numPeliculas = scan.nextInt();
 		System.out.println("");
